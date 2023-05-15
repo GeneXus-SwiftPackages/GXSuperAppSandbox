@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXSuperAppSandbox",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXSuperAppSandbox-1.0.0-beta+20230515145153.xcframework.zip",
-			checksum: "3b70739d356983494bc8400183419640bd313d34fdf4f47103f6130f4c419b6d"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXSuperAppSandbox-1.0.0-beta+20230515153434.xcframework.zip",
+			checksum: "89219b471534dbe3ad781da0bd6669acb51560394d7a397c218f03ebf2560312"
 		)
 	]
 )
