@@ -17,14 +17,14 @@ let package = Package(
 		.target(name: "GXSuperAppSandboxWrapper",
 				dependencies: [
 					"GXSuperAppSandbox",
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .tvOS])),
-					.product(name: "GXSuperApp", package: "GXSuperApp", condition: .when(platforms: [.iOS, .tvOS]))
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .iOS])),
+					.product(name: "GXSuperApp", package: "GXSuperApp", condition: .when(platforms: [.tvOS, .iOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXSuperAppSandbox",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXSuperAppSandbox-1.0.0-beta+20230518171417.xcframework.zip",
-			checksum: "c9f1144e83096f9733c6d8db9503ffa90abed9dec58f368b883f3701d7154cc0"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXSuperAppSandbox-1.0.0-beta+20230519182256.xcframework.zip",
+			checksum: "cfd79710d5decf9a9d614750cebe82b51356f0683c3c8cfd31062cadd8382c14"
 		)
 	]
 )
