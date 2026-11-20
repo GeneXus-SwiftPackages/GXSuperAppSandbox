@@ -10,8 +10,8 @@ let package = Package(
 			targets: ["GXSuperAppSandboxWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "5.1.0-beta.15"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXSuperApp.git", exact: "5.1.0-beta.15")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "5.1.0-beta.16"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXSuperApp.git", exact: "5.1.0-beta.16")
 	],
 	targets: [
 		.target(name: "GXSuperAppSandboxWrapper",
@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXSuperAppSandbox",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXSuperAppSandbox-5.1.0-beta.15.xcframework.zip",
-			checksum: "692d294669bf8f798fcf4f4b5fb7ab0a5951cf021c1d8808feeea437a6aeea09"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXSuperAppSandbox-5.1.0-beta.16.xcframework.zip",
+			checksum: "41a8aba2e480c473a2f66dea350806b067b88b9b4a817f07ef1eb65c2196add2"
 		)
 	]
 )
